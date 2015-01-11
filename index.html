@@ -1,19 +1,72 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">>
 <html lang="en-ca">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta charset="utf-8">
 	<title>Responsive Setup</title>
 	<link href="css/index.css" rel="stylesheet">
 	<link href="css/custom-font.css" rel="stylesheet">
+	<meta http-equiv="Content-Type" content="text/html">
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script type="text/javascript">
+	
+		function init(){
+	
+		   words0=['Crazy','Loving','Serious','Funny'];
+		   words1=['Dancing','Swift','Dapper','Vicious','Rolling','Jumping','Drooling','Limping'];
+		   words2=['Magician','Nomad','Octopus','Peanut','Quail','Raisin','Scout','Tiger','Umbrella','Vampire','Witch','Xylophone','Yak','Zambonie'];
+		
+		   df=document.forms[0];
+		   df.reset();
+	
+		df[3].onclick=function() {
+	
+		   rnd0=Math.floor(Math.random()*words0.length);
+		   rnd1=Math.floor(Math.random()*words1.length);
+		   rnd2=Math.floor(Math.random()*words2.length);
+		
+		   df[0].value=words0[rnd0];
+		   df[1].value=words1[rnd1];
+		   df[2].value=words2[rnd2];
+		}
+	 }
+	   window.addEventListener?
+	   window.addEventListener('load',init,false):
+	   window.attachEvent('onload',init);
+   </script>
+	
 </head>
 <body>
 
 	<h1>Custom Fonts</h1>
 	
 	<a href="google.com"><i class="icon-diamond"></i>Google</a>
+	
+	<form action="#">
+		<div>
+		 	<label>word one:</label><input type="text" readonly="readonly"><br>
+		</div>
+		
+		<input type="button" value="Click here to get random words">
+	</form>
+	
+	<form action="#">
+		<div>
+		 	<label>word two:</label><input type="text" readonly="readonly"><br>
+		</div>
+		
+		<input type="button" value="Click here to get random words">
+	</form>
+	
+	<form action="#">
+		<div>
+		 	<label>word three:</label><input type="text" readonly="readonly"><br>
+		</div>
+		
+		<input type="button" value="Click here to get random words">
+	</form
 
 </body>
 </html>
