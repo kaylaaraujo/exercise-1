@@ -16,3 +16,21 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+form {
+    float:left;
+    padding:20px 20px 10px;
+    border:1px solid #999;
+ }
+ 
+label {
+    float:left;
+    width:100px;
+    line-height:22px;
+    margin-bottom:10px;
+    font-size:12px;
+ }
+ 
+input {
+    margin-bottom:10px;
+ }
