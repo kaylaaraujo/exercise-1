@@ -11,6 +11,8 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+	
+	background-color: #FC6B20;
 }
 
 *, *:before, *:after {
@@ -34,7 +36,7 @@ input {
 	width: 97%;
 	text-align: center;
 	border: none;
-	background-color: #90D6DB;
+	background-color: #F9F9F9;
 	padding: 1em 1%;
 	
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
@@ -47,11 +49,12 @@ input {
 	 text-align: center;
 	 padding: 1em 1%;
 	 margin: 0 2%;
-	 background-color: #079498;
+	 background-color: #000000;
 	 border-radius: 15px;
  }
  
  .randomize-text {
+	 color: #F4F4F4;
 	 font-size: 25px;
 	 margin: 0;
 	 padding: 0.9em 0 0;
@@ -80,20 +83,25 @@ h1 {
 }
 
 h2 {
-	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	font-size: 30px;
 	text-align: center;
-	padding: 0 6%;
+	padding: 0 10%;
 	line-height: 35px;
+	color: #FFFFFF;
 }
 
 .icon-random {
 	font-size: 60px;
+	color: #FFFFFF;
 }
 	
 .icon-clear {
 	font-size: 60px;
-}	
+	color: #FFFFFF;
+}
+
+		
 	
 	
 	
